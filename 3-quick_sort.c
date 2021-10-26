@@ -33,7 +33,7 @@ void swap(int *array, size_t size, int *a, int *b)
 
 size_t lomuto_partition(int *array, size_t size, ssize_t start, ssize_t end)
 {
-	size_t i, j;
+	ssize_t i, j;
 	int pivot = array[end];
 
 	for (i = j = start; j < end; j++)
